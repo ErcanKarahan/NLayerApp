@@ -14,10 +14,12 @@ namespace NLayer.Core
 
         public decimal Price { get; set; }
 
+        // Relationship One To Many
         public int CategoryId { get; set; }
 
         public Category Category { get; set; }
 
+        // Relationship One To One
         public ProductFeature ProductFeature { get; set; }
     }
 }

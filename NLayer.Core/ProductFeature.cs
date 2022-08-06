@@ -18,6 +18,7 @@ namespace NLayer.Core
 
         public int ProductId { get; set; }
 
+        // // Relationship One To One
         public Product Product { get; set; }
 
 
