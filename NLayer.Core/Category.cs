@@ -9,7 +9,7 @@ namespace NLayer.Core
     public class Category : BaseEntity
     {
         public string Name { get; set; }
-        public int MyProperty { get; set; }
+        
 
         // Relationship One To Many
         public ICollection<Product> Products { get; set; }
