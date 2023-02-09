@@ -12,6 +12,7 @@ namespace NLayer.Core
         
 
         // Relationship One To Many
+
         public ICollection<Product> Products { get; set; }
     }
 }
